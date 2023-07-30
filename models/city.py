@@ -1,14 +1,9 @@
 #!/usr/bin/python3
-'''class inherent of BaseModel'''
+""" Class City """
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    '''class city'''
-
+    """ City class that inherits BaseModel """
     state_id = ""
     name = ""
-
-    def __init__(self, *args, **kwargs):
-        """initializes City"""
-        super().__init__(*args, **kwargs)
